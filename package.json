@@ -1,0 +1,20 @@
+{
+  "name": "distancebetweencoordinates",
+  "version": "1.0.0",
+  "description": "Returns the distante (meters) between 2 coordinades and time (secondes) to travel from one to another",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "env-cmd nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.1.13",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
+  }
+}
