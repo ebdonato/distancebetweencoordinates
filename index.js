@@ -11,7 +11,7 @@ function isStringOfNumber(value) {
 }
 
 express.get('/', (request, response) => {
-
+    response.set('Access-Control-Allow-Origin', '*')
     console.log(request.headers.host)
 
     const origin = request.query.origin.split(",")
